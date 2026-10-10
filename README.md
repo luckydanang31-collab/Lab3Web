@@ -1,3 +1,5 @@
+![Tampilan Web](assets/ss1.png)  
+
 # Praktikum 3: CSS Dasar
 
 **Nama:** Lucky Danang Aryeswara  
