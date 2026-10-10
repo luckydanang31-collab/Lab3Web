@@ -43,3 +43,13 @@ Jika ketiga metode digunakan pada elemen yang sama, **Inline CSS** memiliki prio
   <!-- External CSS: p { color: green; } -->
   <!-- Internal CSS: p { color: blue; } -->
   <p style="color: red;">Teks ini akan berwarna Merah</p>
+### 4. Prioritas ID Selector dan Class Selector pada Elemen yang Sama  
+* Penjelasan: Selector ID (#) memiliki tingkat spesifisitas yang jauh lebih tinggi daripada Class (.). Jika sebuah elemen memiliki ID dan Class secara bersamaan dengan properti yang saling bertentangan, maka ID Selector yang akan dimenangkan dan ditampilkan oleh browser.
+* **Contoh:**
+  ```html
+   CSS
+   #paragraf-1 { color: red; }
+   .text-paragraf { color: blue; }
+
+   HTML
+   <p id="paragraf-1" class="text-paragraf">Teks ini akan berwarna Merah.</p>
